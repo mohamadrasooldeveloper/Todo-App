@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+:root{
+  --black:#000;
+  --white:#fff;
+  --primary-color:#6d28d9;
+  --hover:#4c1d95;
+  --grey:#CFD8DC;
+  --red:#F44336;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  height: 100vh;
+  background: linear-gradient(to bottom, #26C6DA, #0288D1); 
+}

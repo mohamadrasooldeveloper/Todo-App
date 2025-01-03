@@ -1,0 +1,99 @@
+.Todo{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--white);
+    width: 500px;
+    height: 100%;
+}
+.Todo h4{
+    font-size: 40px;
+    color:var(--black) ;
+    margin-bottom: 30px;
+}
+.Todo__main{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Todo__main input{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 54px;
+}
+.Todo__main-icon{
+  background-color:var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Todo__main-icon:hover{
+    background-color: var(--hover);
+    transition: all 250ms ease-in;
+}
+
+.todo__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.todo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.todo__item {
+    background: var(--grey);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .todo__item-icon{
+    background-color:var(--red);
+    cursor: pointer;
+    color: var(--white);
+    position: absolute;
+    right: -20px;
+    transform: translateX(20px);
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 250ms ease-in;
+  }
+  .todo__item:hover .todo__item-icon {
+    opacity: 1; 
+    transform: translateX(-20px);
+  }
+  .todo__footer p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.todo__footer button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.todo__footer button:hover {
+    background-color: var(--hover);
+  }
