@@ -12,12 +12,19 @@
   --grey:#CFD8DC;
   --red:#F44336;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3.5rem;
-  height: 100vh;
-  background: linear-gradient(to bottom, #26C6DA, #0288D1); 
+  background: linear-gradient(to bottom, #26C6DA, #0288D1);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
+
+
