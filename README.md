@@ -5,7 +5,7 @@ This project is a simple React app developed with **TypeScript** and **Vite**. I
 
 ## 🖼️ Project Screenshot:
 
-![Project Screenshot](/public/image/Todo.png)
+![Project Screenshot](/public/image//Todo.png)
 
 ## ⚙️ Tools and Frameworks Used:
 
